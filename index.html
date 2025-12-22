@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Holiday Letter 2025</title>
+</head>
+<body>
+
+<h1>Holiday Letter 2025</h1>
+
+<p>
+This year we traveled to 
+<a href="#" onclick="showImage('images/paris.jpg')">Paris</a>,
+adopted a 
+<a href="#" onclick="showImage('images/dog.jpg')">dog</a>,
+and spent a lot of time outdoors.
+</p>
+
+<img id="photo" src="" alt="" style="max-width:100%; display:none;">
+
+<script>
+function showImage(src) {
+  const img = document.getElementById('photo');
+  img.src = src;
+  img.style.display = 'block';
+}
+</script>
+
+</body>
+</html>
