@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Holiday Letter 2025</title>
+
+  <style>
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont,
+                   "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-size: 18px;
+      line-height: 1.6;
+      color: #222;
+      background: #fff;
+      margin: 0;
+      padding: 2rem;
+    }
+
+    .letter {
+      max-width: 70rem;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      column-gap: 3rem;
+      align-items: start;
+    }
+
+    h1 {
+      grid-column: 1 / -1;
+      font-size: 1.6rem;
+      font-weight: 600;
+      margin-bottom: .1rem;
+    }
+
+    .text {
+      grid-column: 1;
+    }
+
+    .image {
+      grid-column: 2;
+      position: relative;
+    }
+
+    p {
+      margin-bottom: 1.2rem;
+    }
+
+    a {
+      color: #0645AD;
+      text-decoration: underline;
+      cursor: pointer;
+    }
+
+    a.pic {
+      color: #00ABB0;
+    }
+
+    a:hover {
+      text-decoration-thickness: 2px;
+    }
+
+    a.external {
+      color: #0645AD;
+    }
+
+    a.external::after {
+      content: "🔗";
+      font-size: 0.7em;
+    }
+
+    .fine-print {
+      font-size: 0.7em;
+      color: #999;
+      line-height: 1.7;
+
+    }
+
+
+    img {
+      display: block;
+      max-width: 100%;
+      max-height: 70vh; /* <-- new maximum height */
+      border-radius: 4px;
+      margin-top: 0; /* JS will adjust dynamically */
+      object-fit: contain; /* ensures image scales properly */
+    }
+
+
+    /* Responsive fallback for smaller screens */
+    @media (max-width: 800px) {
+      .letter {
+        grid-template-columns: 1fr;
+      }
+      .image {
+        margin-top: 2rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="letter">
+
+    <h1>Holiday Letter 2025</h1>
+
+    <div class="text">
+
+      <p class="fine-print">
+        Click the links as you read to view the associated pictures! This page is best viewed on desktop, not mobile.
+      </p>
+      
+
+      <p>
+      <a href="#" class="pic" onclick="showImage(event, 'images25/sign_off.jpg', this)">
+      Happy holidays</a>, from my home to yours!
+      </p>
+
+      <p>
+      2025 was a year of 
+      <a href="#" class="pic" onclick="showImage(event, 'images25/graduation.jpg', this)">
+      big achievements
+      </a>
+      and big changes. In June, I completed my 
+      <a href="#" class="pic" onclick="showImage(event, 'images25/hooding2.jpg', this)">Ph.D.
+      </a>
+       in Physics and Astronomy at UC Irvine, where my research focused on understanding exoplanets and the stars they orbit. I successfully defended my thesis, 
+      <a href="#" class="pic" onclick="showImage(event, 'images25/defeat_snake.jpg', this)">defeated</a>
+      the 
+      <a href="https://www.mcsweeneys.net/articles/faq-the-snake-fight-portion-of-your-thesis-defense" class="external" target="_blank" rel="noopener noreferrer">
+      snake
+      </a>
+      , and 
+      <a href="#" class="pic" onclick="showImage(event, 'images25/celebrate_defense.jpg', this)">celebrated</a>
+       a job well done.
+      </p>
+
+      <p>
+      Sadly, my grandfather Terry Holcomb (the first "Dr. Holcomb") passed away towards the end of 2024. In January 2025, the Holcomb family 
+      <a href="#" class="pic" onclick="showImage(event, 'images25/grandparents_clan.jpg', this)">
+      came together</a>
+      to celebrate his life. It was a 
+      <a href="#" class="pic" onclick="showImage(event, 'images25/grandparents_photobooth.jpg', this)">
+      joyous occasion</a>, 
+      as he would have wanted. Terry and Rita (who passed in 2023) are memorialized as 
+      <a href="#" class="pic" onclick="showImage(event, 'images25/grandparents_bricks.jpg', this)">
+      "silent teachers"</a>
+       in the UCI Willed Body Program Memorial. 
+      </p>
+
+      <p>
+      In September I moved to College Park, Maryland, to begin a postdoctoral fellowship at 
+      <a href="#" class="pic" onclick="showImage(event, 'images25/goddard.jpg', this)">NASA Goddard Space Flight Center</a>.
+       My work here is on the 
+      <a href="https://science.nasa.gov/mission/pandora/" class="external" target="_blank" rel="noopener noreferrer">
+      Pandora SmallSat 
+      </a>
+      (a 
+      <a href="#" class="pic" class="pic" onclick="showImage(event, 'images25/pandora.jpg', this)">
+      very small</a> 
+       mission!) and the 
+      <a href="https://science.nasa.gov/mission/roman-space-telescope/" class="external" target="_blank" rel="noopener noreferrer">
+      Nancy Grace Roman Space Telescope 
+      </a>
+      (a 
+      <a href="#" class="pic" onclick="showImage(event, 'images25/roman.jpg', this)">very big</a>
+       mission!)
+      Both telescopes will be launching in 2026, and I can't wait to see what they reveal to us about the universe!
+      </p>
+
+      <p>
+      Living near DC has been quite an adventure. My work was heavily affected by the government shutdown in October and November, but I'm 
+      <a href="#" class="pic" onclick="showImage(event, 'images25/employment.jpg', this)">still employed</a>
+       and have had the chance to engage in 
+      <a href="#" class="pic" onclick="showImage(event, 'images25/outreach.jpg', this)">public outreach</a>
+       and 
+      <a href="#" class="pic" onclick="showImage(event, 'images25/advocacy.jpg', this)">scientific advocacy</a>
+       on Capitol Hill. I've also been having fun setting up my 
+       <a href="#" class="pic" onclick="showImage(event, 'images25/apartment.jpg', this)">
+      new apartment 
+      </a>
+      , making 
+      <a href="#" class="pic" onclick="showImage(event, 'images25/new_friends.jpg', this)">
+      new friends
+      </a>, and 
+      <a href="#" class="pic" onclick="showImage(event, 'images25/farmers_market.jpg', this)">
+      exploring the city
+      </a>
+       (there are so many farmers markets here!)
+      </p>
+
+      <p>
+      Between the bustle, it has been a great year for my hobby of creative writing. One of my 
+      <a href="https://www.metastellar.com/fiction/flash-fiction/death-and-the-doctor/" class="external" target="_blank" rel="noopener noreferrer">
+      short stories
+      </a>
+      got selected for the 
+      <a href="https://www.metastellar.com/books/the-best-of-metastellar-year-four/" class="external" target="_blank" rel="noopener noreferrer">
+      Metastellar "Best of 2024" anthology
+      </a>
+      , and I will have another story appearing in different literary magazine in summer 2026. I've had great fun continuing my work as the  
+      <a href="#" class="pic" onclick="showImage(event, 'images25/editor.jpg', this)">
+      editor 
+      </a>
+      of the webcomic 
+      <a href="https://foreach.neocities.org/" class="external" target="_blank" rel="noopener noreferrer">
+      Foreach
+      </a>
+      , and even got to attend a 
+      <a href="#" class="pic" onclick="showImage(event, 'images25/comic_fair2.jpg', this)">
+      comic fair 
+      </a>
+      and 
+      <a href="#" class="pic" onclick="showImage(event, 'images25/merch.jpg', this)">
+      sell merch
+      </a>
+       for the first time.
+      </p>
+
+
+      <p>
+      This year was also full of
+      <a href="#" class="pic" onclick="showImage(event, 'images25/old_friends.jpg', this)">
+      excursions</a>! 
+      Outside of school and work, I found plenty of time to get
+      <a href="#" class="pic" onclick="showImage(event, 'images25/skiing.jpg', this)">
+      off the beaten path</a>, 
+      whether that was 
+      <a href="#" class="pic" onclick="showImage(event, 'images25/roadtrip.jpg', this)">
+      roadtripping with Mom</a>, 
+      to traveling to
+      <a href="#" class="pic" onclick="showImage(event, 'images25/aas.jpg', this)">
+      conferences</a>, 
+      celebrating my 10-year
+      <a href="#" class="pic" onclick="showImage(event, 'images25/highschool_reunion.jpg', this)">
+      high school reunion</a>,
+      <a href="#" class="pic" onclick="showImage(event, 'images25/dragonsteel2.jpg', this)">
+      dressing up</a>
+       for 
+      <a href="#" class="pic" onclick="showImage(event, 'images25/dragonsteel.jpg', this)">
+      fantasy conventions</a> 
+      and 
+      <a href="#" class="pic" onclick="showImage(event, 'images25/renn_faire.jpg', this)">
+      renn faires</a>, 
+      attending 
+      <a href="#" class="pic" onclick="showImage(event, 'images25/wedding1.jpg', this)">
+      oh
+      </a>!
+      <a href="#" class="pic" onclick="showImage(event, 'images25/wedding2.jpg', this)">
+      so
+      </a>!
+      <a href="#" class="pic" onclick="showImage(event, 'images25/wedding4.jpg', this)">
+      many
+      </a>!
+      <a href="#" class="pic" onclick="showImage(event, 'images25/wedding3.jpg', this)">
+      weddings
+      </a>!
+      </p>
+
+      <p>
+      But like always, the best part of 2025 was the people. Whether that was 
+      <a href="#" class="pic" onclick="showImage(event, 'images25/reconnecting.jpg', this)">
+      reconnecting</a>
+      with 
+      <a href="#" class="pic" onclick="showImage(event, 'images25/old_friends3.jpg', this)">
+      old friends</a>,
+       making 
+      <a href="#" class="pic" onclick="showImage(event, 'images25/pumpkins.jpg', this)">
+      new ones</a>, 
+       getting to know my 
+      <a href="#" class="pic" onclick="showImage(event, 'images25/coworkers2.jpg', this)">
+      coworkers</a>,
+       or 
+       <a href="#" class="pic" onclick="showImage(event, 'images25/reconnecting.jpg', this)">
+      spending time</a>
+      with my 
+      <a href="#" class="pic" onclick="showImage(event, 'images25/peris_graduation.jpg', this)">
+      loved ones</a>
+       — it's 
+       <a href="#" class="pic" onclick="showImage(event, 'images25/uci_friends.jpg', this)">
+      all of you</a>
+       that make my life so special.
+      </p>
+
+      <p style="margin-bottom: 0;">
+      Here's to a fantastic 2026!
+      </p>
+      <p style="margin-top: 0;">
+      Rae Holcomb
+      </p>
+
+      <p></p>
+
+      <p style="margin-top: 2rem; font-size: 1.3em;">
+      <a href="https://forms.gle/VggD64DvisjNN9wo8" class="external" target="_blank" rel="noopener noreferrer"> Send me a response or update your contact information here! </a>
+      </p>
+
+      <!-- <p>
+        This year we traveled to
+        <a href="#" onclick="showImage(event, 'images/paris.jpg', this)">Paris</a>,
+        
+        and spent a lot of time outdoors.
+      </p>
+
+      <p>
+      We spent time reading about the mission on
+      <a href="https://www.nasa.gov" class="external" target="_blank" rel="noopener noreferrer">
+      NASA’s website
+      </a>.
+      </p> -->
+
+
+      <!-- <p>
+        We also enjoyed many quiet weekends at home and time with friends. adopted a
+        <a href="#" onclick="showImage(event, 'images/dog.jpg', this)">dog</a>,
+      </p> -->
+    </div>
+
+    <div class="image">
+      <img id="photo" src="" alt="" style="display:none;">
+    </div>
+
+  </div>
+
+  <script>
+  function showImage(event, src, link) {
+    event.preventDefault();
+
+    const img = document.getElementById('photo');
+    const imageColumn = img.parentElement;
+    const textColumn = document.querySelector('.text');
+
+    // Toggle off if clicking the same image
+    if (img.style.display === 'block' && img.src.endsWith(src)) {
+      img.style.display = 'none';
+      img.style.marginTop = '0';
+      return;
+    }
+
+    img.style.display = 'block';
+    img.src = src;
+
+    img.onload = () => {
+      const paragraph = link.closest('p');
+
+      const paraRect = paragraph.getBoundingClientRect();
+      const imageColRect = imageColumn.getBoundingClientRect();
+      const textColRect = textColumn.getBoundingClientRect();
+
+      // Desired alignment
+      let offset = paraRect.top - imageColRect.top;
+
+      // Maximum allowed offset so image bottom stays within text column
+      const maxOffset =
+        (textColRect.bottom - imageColRect.top) - img.offsetHeight;
+
+      // Clamp
+      offset = Math.min(offset, maxOffset);
+      offset = Math.max(offset, 0);
+
+      img.style.marginTop = offset + 'px';
+    };
+  }
+  </script>
+
+
+</body>
+</html>
